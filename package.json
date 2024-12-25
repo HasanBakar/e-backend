@@ -1,0 +1,29 @@
+{
+  "name": "e-backend",
+  "version": "1.0.0",
+  "description": "Developing a robust and scalable e-commerce backend within 21 days using Express.js, Node.js, MongoDB, Mongoose, JWT, bcrypt, and CORS hard challenge.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HasanBakar/e-backend.git"
+  },
+  "keywords": [
+    "express.js",
+    "node.js",
+    "mongodb",
+    "mongoose",
+    "jwt",
+    "bcrypt",
+    "cors",
+    "typescript"
+  ],
+  "author": "Abu Bakar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HasanBakar/e-backend/issues"
+  },
+  "homepage": "https://github.com/HasanBakar/e-backend#readme"
+}
