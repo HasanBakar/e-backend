@@ -1,0 +1,69 @@
+{
+  "compilerOptions": {
+    /* Project Settings */
+    "incremental": true /* Enable incremental compilation to speed up subsequent builds by caching information. */,
+    "composite": true /* Allow the project to be used as a dependency in other projects via project references. */,
+
+    /* Language and Environment */
+    "target": "ES2020" /* Specify ECMAScript target version for the output JavaScript. */,
+    "lib": [
+      "ES2020",
+      "DOM"
+    ] /* Include libraries for JavaScript runtime features and browser APIs. */,
+    "module": "commonjs" /* Use CommonJS module system for Node.js compatibility. */,
+    "moduleResolution": "node" /* Use Node.js-style module resolution strategy. */,
+    "esModuleInterop": true /* Enable support for default imports from CommonJS modules. */,
+    "forceConsistentCasingInFileNames": true /* Enforce consistent file name casing for imports. */,
+
+    /* Strict Type Checking Options */
+    "strict": true /* Enable all strict type-checking options. */,
+    "noImplicitAny": true /* Disallow variables with an implied `any` type. */,
+    "strictNullChecks": true /* Ensure values like `null` and `undefined` are handled explicitly. */,
+    "strictFunctionTypes": true /* Check function compatibility in depth, including return types. */,
+    "strictPropertyInitialization": true /* Require property initialization in classes or the constructor. */,
+
+    /* Output Settings */
+    "outDir": "./dist" /* Specify the directory for compiled output. */,
+    "rootDir": "./src" /* Specify the root directory of the source files. */,
+    "removeComments": true /* Omit comments in the output JavaScript files. */,
+    "declaration": true /* Generate `.d.ts` declaration files. */,
+    "declarationMap": true /* Emit sourcemaps for declaration files. */,
+    "sourceMap": true /* Emit sourcemap files to map compiled code back to the original TypeScript. */,
+
+    /* Module Resolution */
+    "baseUrl": "./" /* Set the base directory for module resolution. */,
+    "paths": {
+      /* Define path aliases for module imports. */ "@utils/*": ["src/utils/*"],
+      "@models/*": ["src/models*"],
+      "@controllers/*": ["src/controllers/*"],
+      "@interfaces/*": ["src/interfaces/*"],
+      "@middlewares/*": ["src/middlewares/*"],
+      "@routes/*": ["src/routes/*"],
+      "@config/*": ["src/config/*"]
+    },
+
+    /* JavaScript Interop */
+    "allowJs": true /* Allow JavaScript files to be part of the project. */,
+    "checkJs": false /* Disable type checking in JavaScript files. */,
+
+    /* Experimental Features */
+    "experimentalDecorators": true /* Enable experimental support for decorators. */,
+    "emitDecoratorMetadata": true /* Emit metadata for decorators. */,
+
+    /* Type Checking Enhancements */
+    "skipLibCheck": true /* Skip type checking of declaration files. */,
+    "noUncheckedIndexedAccess": true /* Ensure indexed properties include `undefined` when not explicitly defined. */,
+
+    /* Other Settings */
+    "isolatedModules": true /* Ensure each file is a standalone module for build optimization. */,
+    "resolveJsonModule": true /* Enable importing JSON files as modules. */,
+    "allowSyntheticDefaultImports": true /* Allow default imports from modules without default exports. */
+  },
+  "include": [
+    "src/**/*"
+  ] /* Specify files or patterns to include in the compilation. */,
+  "exclude": [
+    "node_modules",
+    "dist"
+  ] /* Exclude specific directories from the compilation process. */
+}
