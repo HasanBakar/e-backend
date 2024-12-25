@@ -1,4 +1,3 @@
-```markdown
 # Contributing to E-Commerce Backend
 
 First off, thank you for considering contributing to this project! 🎉

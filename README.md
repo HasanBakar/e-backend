@@ -1,4 +1,3 @@
-```markdown
 # E-Commerce Backend
 
 A robust and scalable backend solution for an e-commerce application, built with **Express.js**, **Node.js**, **MongoDB**, and other modern web development tools. This backend supports features such as user authentication, product management, and secure transactions.
